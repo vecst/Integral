@@ -1,4 +1,3 @@
-
 import operator
 from _functools import reduce
 ###########################
@@ -34,11 +33,8 @@ class Ratio:
 #################################
 #################################
 ##where all the magic happens
-def magic(x):
-    n=x            #set n to x
-    p=2            #define P
-    z=3            #define Z
-    b=1
+def magic(n, b, p, z):
+
     coeff=[]
     global y
     y=1
@@ -61,7 +57,7 @@ def magic(x):
     for rateeO in coeff:
        print(rateeO),
 
-magic(2)
+magic(7, 1.5, 1, 2)
+######################
+######################
 
-######################
-######################
